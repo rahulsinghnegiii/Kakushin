@@ -4,8 +4,8 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-600">
           <div className="flex items-center gap-2">
-            <span>Built with</span>
-            <span className="text-red-500">♥</span>
+            <span>Built</span>
+            c
             <span>for Kakushin</span>
           </div>
           

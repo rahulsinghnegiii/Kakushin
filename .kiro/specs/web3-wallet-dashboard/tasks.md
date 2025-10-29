@@ -119,7 +119,9 @@
     - Position in appropriate section of dashboard
     - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
-- [-] 6. Deploy and configure smart contract
+- [ ] 6. Deploy and configure smart contract
+
+
 
   - [x] 6.1 Write MessageBoard smart contract in `contracts/MessageBoard.sol`
 
@@ -131,7 +133,8 @@
     - Add SPDX license identifier and contract documentation
     - _Requirements: 12.1, 12.2, 12.3, 12.4_
   
-  - [ ] 6.2 Deploy contract to testnet using Remix IDE
+  - [x] 6.2 Deploy contract to testnet using Remix IDE
+
     - Copy contract code to Remix at https://remix.ethereum.org/
     - Compile contract with Solidity 0.8.x compiler
     - Connect MetaMask to Sepolia or Mumbai testnet
@@ -141,6 +144,7 @@
     - Verify deployment on Etherscan/Polygonscan
     - _Requirements: 12.5_
   
+
   - [ ] 6.3 Save contract ABI in `contracts/MessageBoard.json`
 
 
