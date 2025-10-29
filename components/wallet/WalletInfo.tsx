@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useAccount, useBalance, useChainId } from 'wagmi';
 import { formatAddress, formatBalance, getNetworkName } from '@/lib/web3';
 

@@ -5,7 +5,7 @@ import { getExplorerUrl } from '@/lib/web3';
 import contractABI from '@/contracts/MessageBoard.json';
 
 export default function MessageBoard() {
-  const { address, isConnected, chain } = useAccount();
+  const { isConnected, chain } = useAccount();
   const [newMessage, setNewMessage] = useState('');
   const [txHash, setTxHash] = useState<string | null>(null);
 
