@@ -183,8 +183,12 @@
     - Conditionally render or disable when wallet not connected
     - _Requirements: 5.1, 5.2, 6.1_
 
-- [ ] 8. Create token API and display
-  - [ ] 8.1 Implement token API endpoint in `pages/api/tokens.ts`
+- [x] 8. Create token API and display
+
+
+  - [x] 8.1 Implement token API endpoint in `pages/api/tokens.ts`
+
+
     - Define `Token` type with name, symbol, balance fields
     - Create API handler function with proper TypeScript types
     - Return 405 error for non-GET requests
@@ -193,7 +197,9 @@
     - Add proper error handling
     - _Requirements: 7.1, 7.2, 7.3, 7.4, 7.5_
   
-  - [ ] 8.2 Create TokenList component in `components/tokens/TokenList.tsx`
+  - [x] 8.2 Create TokenList component in `components/tokens/TokenList.tsx`
+
+
     - Define state for tokens array, loading, and error
     - Implement `fetchTokens()` function to call `/api/tokens`
     - Fetch tokens on component mount using useEffect
@@ -204,7 +210,9 @@
     - Style with Tailwind CSS
     - _Requirements: 8.1, 8.2, 8.3, 8.4, 8.5, 10.1, 10.3, 10.4_
   
-  - [ ] 8.3 Integrate TokenList into main page
+  - [x] 8.3 Integrate TokenList into main page
+
+
     - Import TokenList component in `pages/index.tsx`
     - Position in token holdings section
     - Display regardless of wallet connection status (mock data)

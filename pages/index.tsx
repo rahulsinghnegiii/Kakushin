@@ -2,6 +2,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import WalletInfo from '@/components/wallet/WalletInfo';
 import MessageBoard from '@/components/contract/MessageBoard';
+import TokenList from '@/components/tokens/TokenList';
 
 export default function Home() {
   return (
@@ -29,15 +30,8 @@ export default function Home() {
             <MessageBoard />
           </div>
 
-          {/* Token Holdings Section - Placeholder */}
-          <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              Token Holdings
-            </h3>
-            <p className="text-gray-500">
-              Your token balances will appear here
-            </p>
-          </div>
+          {/* Token Holdings Section */}
+          <TokenList />
         </div>
       </main>
 
