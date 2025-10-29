@@ -60,21 +60,31 @@
     - Import RainbowKit CSS styles
     - _Requirements: 1.1, 1.2, 2.1, 2.2, 11.3_
 
-- [ ] 4. Build layout components
-  - [ ] 4.1 Create Header component in `components/layout/Header.tsx`
+- [x] 4. Build layout components
+
+
+
+  - [x] 4.1 Create Header component in `components/layout/Header.tsx`
+
+
+
     - Display application title/logo on the left
     - Integrate RainbowKit's ConnectButton on the right
     - Implement responsive layout (flex row on desktop, column on mobile)
     - Style with Tailwind CSS for clean, professional appearance
     - _Requirements: 1.1, 1.4, 9.1, 9.2, 9.3_
   
-  - [ ] 4.2 Create Footer component in `components/layout/Footer.tsx`
+
+  - [x] 4.2 Create Footer component in `components/layout/Footer.tsx`
+
     - Display GitHub repository link
     - Add placeholder for developer name/contact
     - Style with Tailwind CSS
     - _Requirements: 9.1, 9.2, 9.3_
   
-  - [ ] 4.3 Create main page layout in `pages/index.tsx`
+  - [x] 4.3 Create main page layout in `pages/index.tsx`
+
+
     - Import Header and Footer components
     - Create main content area with proper spacing
     - Add placeholder sections for WalletInfo, MessageBoard, and TokenList
