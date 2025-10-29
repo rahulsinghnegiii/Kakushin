@@ -141,7 +141,8 @@
     - Verify deployment on Etherscan/Polygonscan
     - _Requirements: 12.5_
   
-  - [x] 6.3 Save contract ABI in `contracts/MessageBoard.json`
+  - [ ] 6.3 Save contract ABI in `contracts/MessageBoard.json`
+
 
 
     - Create JSON file with `contractAddress` and `abi` fields
@@ -150,8 +151,12 @@
     - Update `NEXT_PUBLIC_CONTRACT_ADDRESS` in `.env.local`
     - _Requirements: 12.6_
 
-- [ ] 7. Implement smart contract interaction
-  - [ ] 7.1 Create MessageBoard component in `components/contract/MessageBoard.tsx`
+- [x] 7. Implement smart contract interaction
+
+
+  - [x] 7.1 Create MessageBoard component in `components/contract/MessageBoard.tsx`
+
+
     - Import contract ABI and address from constants
     - Use Wagmi's `useContractRead()` for reading message
     - Use Wagmi's `useContractWrite()` for writing message
@@ -169,7 +174,9 @@
     - Style with Tailwind CSS in card layout
     - _Requirements: 5.1, 5.2, 5.3, 5.4, 5.5, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9, 6.10, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6_
   
-  - [ ] 7.2 Integrate MessageBoard into main page
+  - [x] 7.2 Integrate MessageBoard into main page
+
+
     - Import MessageBoard component in `pages/index.tsx`
     - Pass contract address and ABI as props
     - Position in contract interaction section

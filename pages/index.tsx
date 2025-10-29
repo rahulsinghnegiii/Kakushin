@@ -1,6 +1,7 @@
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import WalletInfo from '@/components/wallet/WalletInfo';
+import MessageBoard from '@/components/contract/MessageBoard';
 
 export default function Home() {
   return (
@@ -24,15 +25,8 @@ export default function Home() {
             {/* Wallet Info Section */}
             <WalletInfo />
 
-            {/* Contract Interaction Section - Placeholder */}
-            <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                MessageBoard Contract
-              </h3>
-              <p className="text-gray-500">
-                Connect your wallet to interact with the smart contract
-              </p>
-            </div>
+            {/* Contract Interaction Section */}
+            <MessageBoard />
           </div>
 
           {/* Token Holdings Section - Placeholder */}
