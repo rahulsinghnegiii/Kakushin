@@ -119,8 +119,11 @@
     - Position in appropriate section of dashboard
     - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
-- [ ] 6. Deploy and configure smart contract
-  - [ ] 6.1 Write MessageBoard smart contract in `contracts/MessageBoard.sol`
+- [-] 6. Deploy and configure smart contract
+
+  - [x] 6.1 Write MessageBoard smart contract in `contracts/MessageBoard.sol`
+
+
     - Use Solidity version ^0.8.0
     - Define public string variable `message` with initial value "Hello Blockchain"
     - Implement public `setMessage(string memory _msg)` function
@@ -138,7 +141,9 @@
     - Verify deployment on Etherscan/Polygonscan
     - _Requirements: 12.5_
   
-  - [ ] 6.3 Save contract ABI in `contracts/MessageBoard.json`
+  - [x] 6.3 Save contract ABI in `contracts/MessageBoard.json`
+
+
     - Create JSON file with `contractAddress` and `abi` fields
     - Paste deployed contract address
     - Paste full ABI array from Remix
