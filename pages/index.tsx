@@ -1,5 +1,6 @@
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import WalletInfo from '@/components/wallet/WalletInfo';
 
 export default function Home() {
   return (
@@ -20,15 +21,8 @@ export default function Home() {
 
           {/* Main Content Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-            {/* Wallet Info Section - Placeholder */}
-            <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Wallet Information
-              </h3>
-              <p className="text-gray-500">
-                Connect your wallet to view your account details
-              </p>
-            </div>
+            {/* Wallet Info Section */}
+            <WalletInfo />
 
             {/* Contract Interaction Section - Placeholder */}
             <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">

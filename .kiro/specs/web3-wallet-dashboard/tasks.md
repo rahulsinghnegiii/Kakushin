@@ -91,8 +91,12 @@
     - Implement responsive grid layout
     - _Requirements: 9.1, 9.2, 9.3, 9.4, 9.5_
 
-- [ ] 5. Implement wallet information display
-  - [ ] 5.1 Create WalletInfo component in `components/wallet/WalletInfo.tsx`
+- [x] 5. Implement wallet information display
+
+
+  - [x] 5.1 Create WalletInfo component in `components/wallet/WalletInfo.tsx`
+
+
     - Use Wagmi's `useAccount()` hook to get connected address
     - Use Wagmi's `useNetwork()` hook to get current chain
     - Use Wagmi's `useBalance()` hook to fetch ETH/MATIC balance
@@ -106,7 +110,10 @@
     - Style with Tailwind CSS in card layout
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 4.1, 4.2, 4.3, 4.4, 10.1, 10.2, 10.3_
   
-  - [ ] 5.2 Integrate WalletInfo into main page
+  - [x] 5.2 Integrate WalletInfo into main page
+
+
+
     - Import WalletInfo component in `pages/index.tsx`
     - Conditionally render only when wallet is connected
     - Position in appropriate section of dashboard
