@@ -41,25 +41,6 @@ export const NETWORK_CONFIGS: Record<number, NetworkConfig> = {
 };
 
 /**
- * Validate and retrieve environment variable
- * @param key - Environment variable key
- * @param required - Whether the variable is required
- * @returns Environment variable value or undefined
- */
-const getEnvVar = (key: string, required: boolean = true): string | undefined => {
-  const value = process.env[key];
-  
-  if (required && !value) {
-    throw new Error(
-      `Missing required environment variable: ${key}. ` +
-      `Please check your .env.local file and ensure ${key} is set.`
-    );
-  }
-  
-  return value;
-};
-
-/**
  * Contract address from environment variable
  * Note: This may be undefined during initial setup before contract deployment
  */

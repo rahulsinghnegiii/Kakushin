@@ -47,8 +47,11 @@
     - Add validation to throw error if required env vars are missing
     - _Requirements: 11.1, 11.2, 11.3, 11.4, 11.5_
 
-- [ ] 3. Configure RainbowKit and Wagmi providers
-  - [ ] 3.1 Set up providers in `pages/_app.tsx`
+- [x] 3. Configure RainbowKit and Wagmi providers
+
+
+  - [x] 3.1 Set up providers in `pages/_app.tsx`
+
     - Import RainbowKit, Wagmi, and required chains
     - Configure Wagmi with Sepolia and Mumbai chains
     - Set up WalletConnect with project ID from environment
