@@ -31,7 +31,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 
 # vercel
 .vercel
@@ -39,3 +38,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI agent and workflow files
+.kiro/
+Rules.md
+Product Requirements Document*.md
+DEPLOYMENT_STATUS.md
+*.prompt.*
+ai-commentary.*
+*.md.bak
+*.ipynb_checkpoints
+config.bat
